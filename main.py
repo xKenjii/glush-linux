@@ -32,8 +32,10 @@ if config['devicename'] == "":
 
 def pingServer():
     r = requests.get('http://glush.cyberise.nl/api/sync.php?apikey=' + config['apikey'] + '&devicename=' + config['devicename'] + '&uniqueid=' + str(uuid.getnode())).json()
-
+    
     if r['response'] != 'SUCCESS':
         f = open('error-logs.txt', 'a')
         f.write("\nAn error occurred trying to synchronise this device with the Glush server:" + r['error'])
         f.close()
+
+pingServer()
