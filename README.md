@@ -3,6 +3,8 @@
 ### Installation
 
 Glush requires any version of Python 3 to be installed and present in the bin folder under python3
+To validate python3 is installed in its respective path ( /usr/lib/python3 ), you can execute the following command
+> whereis python3
 
 Installing git & git-core.
 > sudo apt-get install git git-core
