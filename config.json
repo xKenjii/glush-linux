@@ -1,4 +1,5 @@
 {
     "apikey": "YOUR-API-KEY-HERE",
-    "devicename": "Device Name"
+    "devicename": "Device Name",
+    "ddns": false
 }
