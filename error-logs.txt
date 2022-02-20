@@ -1,3 +1,0 @@
-
-An error occurred trying to synchronise this device with the Glush server:The specified api key is invalid.
-An error occurred trying to synchronise this device with the Glush server:The specified api key is invalid.
